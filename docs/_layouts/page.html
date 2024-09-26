@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>{{ site.title }}</title>
+  <style>
+    body{
+      text-align: center;
+      margin:0;
+      padding:0;
+      font: 16px / 24px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      background-image: url(metal-floor-plate.jpg);
+    }
+     /*
+      Metal plate by Filter Forge CC BY 2.0
+      https://www.flickr.com/photos/filterforge/
+     */
+    .announcement-inner-box {
+      background-color: #f0f000;
+      color: #000000;
+      margin: 0;
+      padding:1rem;
+      box-shadow: 0px 0.25em 0.666em rgba(0,0,0,0.5);
+    }
+    .announcement-special{
+      margin: 1rem 0;
+      background: repeating-linear-gradient(
+        -45deg,
+        black,
+        black 2rem,
+        yellow 2rem,
+        yellow 4rem
+      );
+      padding: 1em 0;
+    }
+    p {
+      margin: 1rem 0;
+      padding:1rem;
+      background-color:rgba(255,255,255,0.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="announcement-special">
+    <div class="announcement-inner-box alert">
+        
+          Buggy racing is currently suspended.
+          <br>
+          Come back when the next racing season begins!
+        
+    </div>
+  </div>
+  <img src="rhul-hamster.png" alt="RHUL buggy racing hamster logo"/>
+  {{ content }}
+</body>
+</html>
