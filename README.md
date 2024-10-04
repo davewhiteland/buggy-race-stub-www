@@ -4,6 +4,8 @@ This is a static GitHub Pages Jekyll site ([how/what?](https://docs.github.com/e
 that can be deployed as a stub when the buggy race server is not running. This
 is useful at RHUL because we don't need to run the server in terms 1 and 2.
 
+* [Buggy Racing documentation for this repo](https://www.buggyrace.net/docs/shutdown/placeholder)
+
 At such times, we change the DNS CNAME record for `<subdomain>.buggyrace.net`
 to point at the GitHub pages domain (`<username>.github.io`), give it enough
 hours to propogate through the internets, and then teardown the Heroku site
