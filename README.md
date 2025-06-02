@@ -10,7 +10,7 @@ At such times, we change the DNS CNAME record for `<subdomain>.buggyrace.net`
 to point at the GitHub pages domain (`<username>.github.io`), give it enough
 hours to propogate through the internets, and then teardown the Heroku site
 (in Heroku parlance: _delete the app_). (That also means we stop paying for
-the it, you see).
+it, you see).
 
 This static site is just an index page (with a similarly-styled 404 page
 to capture any requests coming from URLs that were (rightly) linking to
